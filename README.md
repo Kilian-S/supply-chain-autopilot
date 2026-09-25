@@ -1,8 +1,6 @@
 # Supply Chain Autopilot
 
-Two autonomous bots that played the Imperial College Supply Chain Game, a competitive discrete-event simulation of a chemical drum supply chain running over a simulated four-year horizon. The bots scraped the game's web interface, forecast regional demand, sized production and inventory, and wrote the resulting settings back to the game once per simulated day, unattended, for the full length of each run.
-
-**The Network Run finished first of ten teams with a closing cash balance of $25,952,540.**
+Two autonomous bots that played the Imperial College Supply Chain Game, a competitive simulation of a chemical drum supply chain, by forecasting demand, sizing production and inventory, and writing their decisions back to the game unattended. **They finished on the podium in both assessed stages, third in the Single-Region Run and first of ten teams in the Network Run, which closed on a cash balance of $25,952,540, more than double the result of a team that made no decisions.**
 
 ![Final standings, showing fourgotyourpackage first with $25,952,540.52](docs/images/final-standings.png)
 
@@ -17,7 +15,7 @@ The **Single-Region Run** covered one region, Calopeia, with one factory and one
 | | Single-Region Run | Network Run |
 |---|---|---|
 | Final cash | $12,375,000 | **$25,952,540** |
-| Placing | Top three | **1st of 10** |
+| Placing | 3rd | **1st of 10** |
 | Item fill rate | 93.87% | 96.88% |
 | Total demand | 28,743 drums | 117,305 drums |
 | Drums sold | 26,729 | 113,650 |
